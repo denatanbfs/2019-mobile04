@@ -9,6 +9,7 @@
     android:orientation="vertical"
     tools:context=".ExplicitIntentActivity">
 
+
     <TextView
         android:text="@string/explicit_intent"
         android:textAlignment="center"
