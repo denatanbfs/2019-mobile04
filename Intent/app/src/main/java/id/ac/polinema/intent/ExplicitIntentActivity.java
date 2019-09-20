@@ -15,4 +15,10 @@ public class ExplicitIntentActivity extends AppCompatActivity {
         setContentView(R.layout.activity_explicit_intent);
     }
 
+    public void submit(View view) {
+        EditText nama = findViewById(R.id.input_name);
+        TextView tampilNama = findViewById(R.id.text_output);
+
+        tampilNama.setText(nama.getText());
+    }
 }
